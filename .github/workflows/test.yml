@@ -1,12 +1,15 @@
-name: My First Action
+name: Debug Info
 
 on:
   push:
 
 jobs:
-  hello-job:
+  debug-job:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Print a message
-        run: echo "Hello from GitHub Actions!"
+      - name: Show current directory
+        run: pwd
+
+      - name: Show files
+        run: ls -la
