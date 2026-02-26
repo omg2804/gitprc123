@@ -7,3 +7,5 @@ This repository was created automatically.
 
 ## About
 Placeholder README. Update with project details.
+
+Hello world
